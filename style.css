@@ -134,7 +134,7 @@ ul {
     margin: 20px 0;
 }
 
-.result-list {
+.result-name {
     margin-top: 15px;
     color: #05DF05;
     font-size: 22px;
@@ -159,4 +159,25 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+.name-list, .listNames{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.listNames{
+    list-style-type: decimal;
+}
+
+.result-name{
+    display: flex;
+    height: 30px;
+    background: #ffff;
+    border-radius: 20px;
+    padding: 10px 10px;
 }
